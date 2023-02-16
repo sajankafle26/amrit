@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a 
+{
+    text-decoration: none;
+}
+ul 
+{
+    list-style: none;
+}
+body 
+{
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: 'Raleway', sans-serif;
+}
+.hero 
+{
+    background: url(../img/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+nav 
+{
+    max-width: 1290px;
+    margin: auto;
+    padding: 20px 0;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+nav a 
+{
+    color: #fff;
+    font-size: 19px;
+}
+.brand h2 a
+{
+    font-size: 38px !important;
+}
+.brand h2 span 
+{
+    font-weight: 300;
+}
+.hero-text
+{
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    color: #fff;
+    padding: 6% 0;
+}
+.hero-text h1 
+{
+    font-size: 64px;
+}
+.search-box 
+{
+    max-width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    margin: auto;
+}
+.block1
+{
+    padding: 50px 0;
+}
+.con 
+{
+    max-width: 1290px;
+    margin: auto;
+}
+.fbox
+{
+    position: relative;
+    flex-basis: 400px;
+    overflow: hidden;
+}
+.fbox-text
+{
+    position: absolute;
+    bottom: -70px;
+    left: 20px;
+    color: #fff;
+    transition: 0.9s;
+}
+.fbox:hover .fbox-text
+{
+    bottom: 20px;
+}
+.fbox img 
+{
+    width: 100%;
+}
+.tc 
+{
+    text-align: center;
+}
+.block2
+{
+    background: linear-gradient(rgba(18, 14, 14, 0.712),rgba(13, 21, 13, 0.518)), url(https://sangalotech.com/html/02/images/services-bg.jpg);
+    height: 450px;
+    background-size: cover;
+    color: #fff;
+    padding: 30px 0;
+}
+.items
+{
+    flex-basis: 30%;
+    margin: 30px 0;
+}
+.aa 
+{
+    background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+.aa a 
+{
+    color: #000 !important;
+}
